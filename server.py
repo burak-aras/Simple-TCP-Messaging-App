@@ -2,7 +2,7 @@ import socket
 import threading
 
 host = 'HOST IP ADDRESS'
-port = "HOST PORT11231"
+port = "HOST PORT111231"
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.bind((host, port))
